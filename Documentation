@@ -1,0 +1,22 @@
+  PROJECT TITLE -Freelancing Project
+  DATE -19/10/2024
+  KEY POINTS TEAM MEMBER - Ayush Singh,Hari Om Dubey,Harsh Kumar Sona,Ashutosh Mishra
+  PROJECT PROPOSAL -
+             INTRODUCTION-The purpose of this document is to provide a comprehensive overview of the web design for  providing valuable data on freelancers and 
+             the gig economy.
+            There is currently no platform that offers a comprehensive solution for seamless collaboration among multiple freelancers working together on a project.
+              This includes the system overview,design consideration,specification,detailed design,implementation   plan, testing plan.
+              plan, testing plan
+  SYSTEM OVERWIEW - • React Native-Front End Development
+                    • Node.js with Express- Back End Development
+                    • PostreSQL- Database
+                    • NLP with spaCY- AI & ML
+                    • Socket.io- Collaboration tools
+                    • Paypal API- Payment System
+                    • AWS- Cloud hosting & Storage
+                    • Docker- DevOps
+                    • OAuth 2.0- Authentication & Security
+                    • CUSTOM BUILT ADMIN PANEL WITH REACT/ 
+                      NODE.JS
+                   
+             
