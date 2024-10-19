@@ -1,0 +1,109 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6e9f0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #34495e;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+input[type="text"],
+input[type="file"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+  padding: 12px;
+  margin: 15px 0;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 6px;
+  border: 1px solid #bdc3c7;
+  font-size: 1rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #2980b9;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin: 12px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 500px;
+}
+
+button:hover {
+  background-color: #1f618d;
+}
+
+.commit-history {
+  margin: 20px 0;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.commit-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.commit-history li {
+  margin-bottom: 15px;
+  background-color: #f1f1f1;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.commit-history p {
+  margin: 8px 0;
+}
+
+ul li {
+  color: #34495e;
+}
+
+ul li p {
+  font-size: 0.95rem;
+  color: #7f8c8d;
+}
+
+input[type="file"] {
+  background-color: #ecf0f1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
