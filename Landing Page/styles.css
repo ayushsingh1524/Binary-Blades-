@@ -1,0 +1,76 @@
+/* Custom Styles */
+
+/* Customize the hover effect for links */
+a:hover {
+  transition: color 0.3s ease;
+}
+
+/* Ensure body and html fill the entire viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add background image to the body */
+body {
+  background-image: url('neeeeeeeww.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Vertical line container for alignment with headings */
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+/* Styling for the vertical line */
+.vertical-line {
+  position: relative;
+  height: 700px;
+  width: 4px;
+  background: linear-gradient(to bottom, rgb(172, 101, 172), rgb(110, 206, 110));
+}
+
+/* Styling for circular nodes on the line */
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  left: -8px;
+}
+
+/* Adjust circle positions according to content */
+.circle.first {
+  top: 0%; /* Corresponds to the heading */
+}
+.circle.second {
+  top: 28%; /* Adjust as necessary */
+}
+.circle.third {
+  top: 60%; /* Adjust as necessary */
+}
+.circle.fourth {
+  top: 100%; /* Adjust as necessary */
+}
+
+/* Transparent header, section, and footer */
+header, section, footer {
+  background: transparent;
+}
+.signup-button {
+  white-space: nowrap; /* Prevents text from wrapping */
+  display: inline-block; /* Ensures that the button behaves properly */
+  width: 500px; /* Further increase the button width */
+  text-align: center; /* Keep text centered */
+  padding: 10px 20px; /* Add more padding if necessary */
+  font-size: 18px; /* Optionally increase font size */
+}

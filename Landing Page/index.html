@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SyncWork</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Styles -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased text-white" style="background-image: url('neeeeeeeww.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;">
+
+  <!-- Header with transparent background -->
+  <header class="flex items-center justify-between p-6 shadow-md">
+    <div class="flex items-center">
+      <!-- Logo -->
+      <a href="file:///Users/ayushsingh/Documents/IIT%20Gwalior/Binary-Blades-/Landing%20Page/index.html">
+        <img src="assets/dragon1-removebg-preview.png" alt="Logo" class="h-10">
+      </a>
+      <!-- Navigation Links -->
+      <nav class="ml-10 space-x-4 hidden md:flex">
+        <a href="/features" class="text-white hover:text-gray-300">Features</a>
+        <a href="/pricing" class="text-white hover:text-gray-300">Pricing</a>
+        <a href="/marketplace" class="text-white hover:text-gray-300">Marketplace</a>
+        <a href="/explore" class="text-white hover:text-gray-300">Explore</a>
+      </nav>
+    </div>
+    <!-- Authentication Buttons -->
+    <div class="hidden md:flex space-x-4">
+      <a href="/Users/ayushsingh/Documents/IIT Gwalior/Binary-Blades-/Signin Page/sign in.html" class="px-4 py-2 text-white hover:text-gray-300 rounded">Sign in</a>
+      <a href="/Users/ayushsingh/Documents/IIT Gwalior/Binary-Blades-/Sign up Page /pages/sign-up.html" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Sign up</a>
+    </div>
+  </header>
+
+  <!-- Hero Section with vertical line and heading moved upward -->
+  <section class="flex flex-col-reverse md:flex-row items-center px-6 py-12 bg-transparent">
+    
+    <!-- Vertical Line Section aligned with heading -->
+    <div class="flex items-start space-x-8">
+      <!-- Vertical Line -->
+      <div class="vertical-container">
+        <div class="vertical-line">
+          <div class="circle first"></div> <!-- First node -->
+          <div class="circle second"></div> <!-- Second node -->
+          <div class="circle third"></div> <!-- Third node -->
+        </div>
+      </div>
+
+      <!-- Text Content -->
+      <div class="md:w-1/2">
+        <h1 class="text-8xl font-bold text-white w-full text-left">SyncWork</h1>
+        <p class="mt-4 text-white">Collaborate, share, and manage your projects with ease.</p>
+
+        <!-- Email Input Form with Sign up beside -->
+        <div class="email-container mt-6 flex space-x-4">
+          <input type="email" placeholder="you@company.com" class="email-input p-2 border border-gray-300 rounded w-[300px] text-black">
+          <a href="/Users/ayushsingh/Documents/IIT Gwalior/Binary-Blades-/Sign up Page /pages/sign-up.html" 
+             class="signup-button bg-blue-600 text-white w-64 py-2 rounded hover:bg-blue-700 text-center">
+             Sign up for SyncWork
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Image (Aligned to the right) -->
+    <div class="md:w-1/2 mb-8 md:mb-0 flex justify-end">
+      <img src="assets/hero-removebg-preview.png" alt="Hero Image" class="w-full max-w-lg rounded shadow">
+    </div>
+  </section>
+
+  <!-- Features Section with transparent background -->
+  <section class="py-12 bg-opacity-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-white">Features</h2>
+      <div class="mt-8 space-y-12">
+        <!-- Feature 1 -->
+        <div class="flex flex-col md:flex-row items-center justify-between">
+          <!-- Text Part -->
+          <div class="md:w-1/2 text-white">
+            <h3 class="text-xl font-semibold">Version Control</h3>
+            <p class="mt-2">Track changes, collaborate seamlessly, and maintain your project history.</p>
+          </div>
+          <!-- Image Part -->
+          <div class="md:w-1/2 text-right">
+            <img src="assets/feature-icons/feature1.svg" alt="Feature 1" class="h-16 w-16 mx-auto md:mx-0">
+          </div>
+        </div>
+        <!-- Feature 2 -->
+        <div class="flex flex-col md:flex-row items-center justify-between">
+          <!-- Text Part -->
+          <div class="md:w-1/2 text-white">
+            <h3 class="text-xl font-semibold">Issue Tracking</h3>
+            <p class="mt-2">Manage bugs, enhancements, and tasks efficiently within your projects.</p>
+          </div>
+          <!-- Image Part -->
+          <div class="md:w-1/2 text-right">
+            <img src="assets/feature-icons/feature2.svg" alt="Feature 2" class="h-16 w-16 mx-auto md:mx-0">
+          </div>
+        </div>
+        <!-- Feature 3 -->
+        <div class="flex flex-col md:flex-row items-center justify-between">
+          <!-- Text Part -->
+          <div class="md:w-1/2 text-white">
+            <h3 class="text-xl font-semibold">CI/CD Integration</h3>
+            <p class="mt-2">Automate your development workflow with continuous integration and deployment.</p>
+          </div>
+          <!-- Image Part -->
+          <div class="md:w-1/2 text-right">
+            <img src="assets/feature-icons/feature3.svg" alt="Feature 3" class="h-16 w-16 mx-auto md:mx-0">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action with transparent background -->
+  <section class="py-12 bg-blue-600 bg-opacity-50">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-white">Ready to start your project?</h2>
+      <p class="mt-4 text-white">Join millions of developers and start collaborating today.</p>
+      <div class="mt-6">
+        <a href="/Users/ayushsingh/Documents/IIT Gwalior/Binary-Blades-/Sign up Page /pages/sign-up.html" class="px-6 py-3 bg-white text-blue-600 rounded hover:bg-gray-100">Sign Up for Free</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer with transparent background -->
+  <footer class="py-8 bg-gray-800 bg-opacity-50 text-white">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- About -->
+      <div>
+        <h4 class="text-xl font-semibold">About</h4>
+        <p class="mt-2">SyncWork </p>
+      </div>
+      <!-- Links -->
+      <div>
+        <h4 class="text-xl font-semibold">Links</h4>
+        <ul class="mt-2 space-y-2">
+          <li><a href="/features" class="hover:text-gray-300">Features</a></li>
+          <li><a href="/pricing" class="hover:text-gray-300">Pricing</a></li>
+          <li><a href="/contact" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
