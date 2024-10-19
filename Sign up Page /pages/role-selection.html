@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Role Selection</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Select Your Role</h1>
+  
+  <button onclick="handleRoleSelection('freelancer')">Freelancer</button>
+  <button onclick="handleRoleSelection('client')">Client</button>
+
+  <script>
+    function handleRoleSelection(role) {
+      if (role === 'freelancer') {
+        window.location.href = '/freelancer-details.html'; // Redirect to Freelancer details page
+      } else if (role === 'client') {
+        window.location.href = '/client-details.html'; // Redirect to Client details page
+      }
+    }
+  </script>
+
+</body>
+</html>
