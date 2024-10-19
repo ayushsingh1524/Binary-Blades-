@@ -23,15 +23,11 @@
     </p>
     <h3>System Overview:</h3>
     <ul>
-        <li><strong>React Native</strong> - Front-End Development</li>
-        <li><strong>Node.js with Express</strong> - Back-End Development</li>
+        <li><strong>React &  Html ,Css & JS</strong> - Front-End Development</li>
+        <li><strong>Node.js with Express, Python with flask server</strong> - Back-End Development</li>
         <li><strong>PostgreSQL</strong> - Database for storing freelancer data</li>
         <li><strong>NLP with spaCy</strong> - AI for matching freelancers to projects based on skillset</li>
-        <li><strong>Socket.io</strong> - Real-time collaboration tools for multiple freelancers</li>
-        <li><strong>PayPal API</strong> - Secure payment processing between clients and freelancers</li>
-        <li><strong>AWS</strong> - Cloud hosting and storage services</li>
-        <li><strong>Docker</strong> - DevOps for containerized application deployment</li>
-        <li><strong>OAuth 2.0</strong> - Secure authentication and login</li>
+        <li><strong>php</strong> - Real-time collaboration tools</li>
         <li><strong>Custom-built Admin Panel</strong> - Manage freelancers, clients, and projects using a React/Node.js admin interface</li>
     </ul>
     <h3>Design Considerations:</h3>
@@ -44,17 +40,6 @@
     <p>
         The project will be implemented in multiple phases:
     </p>
-    <ol>
-        <li>UI/UX Design with React Native</li>
-        <li>API and backend integration with Node.js and Express</li>
-        <li>Database schema design and integration with PostgreSQL</li>
-        <li>AI and NLP implementation for skill-based matching</li>
-        <li>Real-time collaboration setup with Socket.io</li>
-        <li>Payment system integration with PayPal API</li>
-        <li>Cloud setup and deployment using AWS and Docker</li>
-        <li>Testing and security with OAuth 2.0</li>
-        <li>Admin panel development</li>
-    </ol>
     <h3>Testing Plan:</h3>
     <p>
         Testing will be conducted across different modules of the platform:
